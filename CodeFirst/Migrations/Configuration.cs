@@ -15,8 +15,18 @@
         protected override void Seed(CodeFirst.FutboldbConrext context)
         {
 
+            /*context.Teams.AddOrUpdate(
+               new Team { id = 1, Ad = "Fenerbahce", BaslamaYili = 1907 },
+               new Team { id = 1, Ad = "Fenerbahce", BaslamaYili = 1907 },
+               new Team { id = 1, Ad = "Fenerbahce", BaslamaYili = 1907 },
+               new Team { id = 1, Ad = "Fenerbahce", BaslamaYili = 1907 },
+               new Team { id = 1, Ad = "Fenerbahce", BaslamaYili = 1907 }
+             
 
-            
+
+
+                );  */
+           
         }
     }
 }

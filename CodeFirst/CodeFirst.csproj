@@ -74,6 +74,26 @@
     <Compile Include="Migrations\201909241242476_CreatteadSponsered.designer.cs">
       <DependentUpon>201909241242476_CreatteadSponsered.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909241306417_CreatteadSponserednamedegist.cs" />
+    <Compile Include="Migrations\201909241306417_CreatteadSponserednamedegist.designer.cs">
+      <DependentUpon>201909241306417_CreatteadSponserednamedegist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909241313131_nameguncellmesioldu.cs" />
+    <Compile Include="Migrations\201909241313131_nameguncellmesioldu.designer.cs">
+      <DependentUpon>201909241313131_nameguncellmesioldu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909241316205_nameguncellmesioldum.cs" />
+    <Compile Include="Migrations\201909241316205_nameguncellmesioldum.designer.cs">
+      <DependentUpon>201909241316205_nameguncellmesioldum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909241328347_TemmKurulsudegisti.cs" />
+    <Compile Include="Migrations\201909241328347_TemmKurulsudegisti.designer.cs">
+      <DependentUpon>201909241328347_TemmKurulsudegisti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909241345273_krulusolarakdegisti.cs" />
+    <Compile Include="Migrations\201909241345273_krulusolarakdegisti.designer.cs">
+      <DependentUpon>201909241345273_krulusolarakdegisti.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayersAdress.cs" />
@@ -101,6 +121,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909241242476_CreatteadSponsered.resx">
       <DependentUpon>201909241242476_CreatteadSponsered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909241306417_CreatteadSponserednamedegist.resx">
+      <DependentUpon>201909241306417_CreatteadSponserednamedegist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909241313131_nameguncellmesioldu.resx">
+      <DependentUpon>201909241313131_nameguncellmesioldu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909241316205_nameguncellmesioldum.resx">
+      <DependentUpon>201909241316205_nameguncellmesioldum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909241328347_TemmKurulsudegisti.resx">
+      <DependentUpon>201909241328347_TemmKurulsudegisti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909241345273_krulusolarakdegisti.resx">
+      <DependentUpon>201909241345273_krulusolarakdegisti.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
